@@ -1,0 +1,33 @@
+{
+  "schema": "riverbraid.gold.protocol.steps",
+  "version": "1.0.0",
+  "repo": "Riverbraid-Weave-Gold",
+  "ring": 1,
+  "petal": "Weave-Gold",
+  "invariant": "WEAVE_STATIONARY",
+  "claim_boundary": "declared-conditions-only",
+  "canonical_input": {
+    "repo": "Riverbraid-Weave-Gold",
+    "petal": "Weave-Gold",
+    "ring": 1,
+    "invariant": "WEAVE_STATIONARY"
+  },
+  "expected_result": true,
+  "steps": [
+    "receive canonical stationarity object",
+    "require repo to equal Riverbraid-Weave-Gold",
+    "require petal to equal Weave-Gold",
+    "require ring to equal 1",
+    "require invariant to equal WEAVE_STATIONARY",
+    "emit deterministic verification output"
+  ],
+  "forbidden": [
+    "Date",
+    "Math.random",
+    "randomUUID",
+    "timestamps",
+    "absolute paths",
+    "environment dependent values",
+    "external lookups"
+  ]
+}
