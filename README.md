@@ -1,47 +1,14 @@
 # Riverbraid-Weave-Gold
 
-**Lifecycle category:** registry listed Gold surface
-**Normative source:** Riverbraid-Core
-**Claim boundary:** Declared Conditions Only
+> Lifecycle: ACTIVE  
+> Experimental status: EXPERIMENTAL  
+> Control posture: NONCONTROLLING  
+> Current mechanical reproduction profile: EXCLUDED
 
-## Role in Riverbraid
+Riverbraid-Weave-Gold is an active experimental surface for weave/relationship-oriented Riverbraid research.
 
-Riverbraid-Weave-Gold is a Weave domain surface within Riverbraid.
+Relationship vocabulary or mapping work here is not a universal Riverbraid semantic vocabulary. Predicate meanings and mappings must remain namespaced, versioned, attributed, and scoped if reused.
 
-This repository represents weaving-oriented verification and relationship mapping work inside the current Evaluation Kit registry snapshot.
+Riverbraid does not decide truth, trust, evidentiary weight, legitimacy, risk, readiness, certification, moral priority, or the correct interpretation of evidence.
 
-## Public verification boundary
-
-This repository is part of the current Evaluation Kit canonical verification registry snapshot.
-
-Registry membership means this repository has a pinned registry entry and a configured verification command in the Evaluation Kit.
-
-Registry membership does not imply certification, external audit, production readiness, complete AI safety, absolute security, registry freshness, or absence of defects.
-
-Primary public entry point:
-https://github.com/Riverbraid/Riverbraid-Evaluation-Kit
-
-Documentation hub:
-https://github.com/Riverbraid/Riverbraid-Documentation
-
-## Evidence boundary
-
-This repository does not claim certification, legal approval, production readiness, absolute security, external audit, complete AI safety, adoption, registry freshness, or absence of defects.
-
-## Authority boundary
-
-Riverbraid-Core remains the normative source for protocol semantics. This repository does not redefine canonical Riverbraid protocol rules.
-
-## Verification
-
-```bash
-npm test
-```
-
-## License
-
-MIT.
-
----
-
-**Navigation:** [Evaluation Kit](https://github.com/Riverbraid/Riverbraid-Evaluation-Kit) | [Documentation](https://github.com/Riverbraid/Riverbraid-Documentation) | [System Map](https://github.com/Riverbraid/Riverbraid-Documentation)
+See [Riverbraid-Core](https://github.com/Riverbraid/Riverbraid-Core) for the mechanical assertion envelope and [Riverbraid-Evaluation-Kit](https://github.com/Riverbraid/Riverbraid-Evaluation-Kit) for the current declared reproduction profile.
